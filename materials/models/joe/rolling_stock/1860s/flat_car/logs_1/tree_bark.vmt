@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "joe/logs/tree_bark"
+	"$surfaceprop" "wood"
+	"$override" "{255 255 255}"
+    proxies
+    {
+        equals
+        {
+            srcvar1 $override
+            resultvar $color
+        }
+    
+    }
+}

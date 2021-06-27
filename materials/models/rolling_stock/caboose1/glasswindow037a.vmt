@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	// original shader: worldadditivetransenvmapwithmaskedtexture
+	"$basetexture" "glass/glasswindow037a"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"%keywords" "c17industrial"
+	"$envmapmask" "glass/glasswindow037a_mask"
+	"$translucent" 1
+}

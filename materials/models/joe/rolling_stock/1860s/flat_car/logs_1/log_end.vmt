@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmap
+	"$basetexture" "wood/woodlogcap_001a"
+	"$surfaceprop" "wood"
+	"%keywords" "ep2"
+	
+	"$override" "{255 255 255}"
+    proxies
+    {
+        equals
+        {
+            srcvar1 $override
+            resultvar $color
+        }
+    
+    }
+}

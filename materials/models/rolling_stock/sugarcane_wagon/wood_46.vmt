@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "realworldtextures2\wood\wood_46"
+	"$bumpmap" "realworldtextures2\wood\wood_46_nrm"
+	"$detail" "realworldtextures2\detail\dt_wood1"
+	"$detailblendfactor" ".7"
+	"$detailscale" "7"
+	"$surfaceprop" "wood"
+} //realworld textures version 2 - made by tophattwaffle - please credit me if used! - contact: www.tophattwaffle.com

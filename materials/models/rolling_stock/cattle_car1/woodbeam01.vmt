@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "de_cbble/woodbeam01"
+	"$surfaceprop" "wood"
+	"%keywords" "cstrike"
+}
