@@ -1,5 +1,6 @@
 # Consolidated-Train-Models-and-Parts-Pack
 
-For use by any Gmod mappers. 
+This exists for contributors to the pack.
 
-Deposit the /models and /materials file in the appropriate folder and you will be able to access them in Hammer.
+If you are going to update the addon on steam make sure you first add your files here with the right folder structure and make sure you have downloaded the most up to date version of the addon with all of the assets here.
+
