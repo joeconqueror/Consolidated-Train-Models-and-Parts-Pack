@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\proppertextures\paint\acrylic\acrylic_dirty"
+	"$bumpmap" 			"models\proppertextures\paint\acrylic\acrylic_n"
+
+
+	"$normalmapalphaenvmapmask"	"1"
+	"$basemapalphaphongmask" 		"1"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "10"
+	"$rimlightboost"          "0.05"
+
+
+	"$envmap"                       	"env_cubemap"
+	"$envmaptint"                   	"[0.015 0.015 0.015]"
+	"$envmapfresnel" 		"0.5"
+
+	"$detail" 			"detail\plaster_detail_01"
+	"$detailscale" 		"30.283"
+	"$detailblendfactor" 	"0.15"
+	"$detailblendmode" 	"0"
+
+	"$override" "{40 40 40}"
+	
+    "Proxies"
+    {
+        "EnvMapDarken"
+        {
+            "min" "0"
+            "max" "0.15"
+        }
+		Equals
+		{
+			srcVar1 $override
+			resultVar $color
+		}
+    }
+}
